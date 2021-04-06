@@ -2,12 +2,12 @@ version: '3.2'
 
 services:
   python:
-    image: pythonapi
+    image: flaskapi
     restart: always
     build:
       context: ./
       dockerfile: ./python.docker
-    container_name: pythonapi
+    container_name: flaskapi
     ports:
       - '8383:8383'
     volumes:

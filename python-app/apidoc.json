@@ -1,9 +1,9 @@
 {
-	"name": "Python Api",
+	"name": "Flask Api",
 	"version": "1.0.0",
-	"description": "Python Api Documentation",
-	"title": "Python Api Documentation",
-	"url": "https://www.jnpl.me/playground/pythonapi/<version>",
+	"description": "Flask Api Documentation",
+	"title": "Flask Api Documentation",
+	"url": "https://www.jnpl.me/playground/flaskapi/<version>",
 	"header": {
 		"title": "GETTING STARTED",
 		"filename": "apidoc-getting-started.md"

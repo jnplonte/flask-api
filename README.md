@@ -1,4 +1,4 @@
-# PYTHON API
+# FLASK API
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
@@ -12,11 +12,6 @@
 - flask: [https://flask-restful.readthedocs.io/en/latest/](https://flask-restful.readthedocs.io/en/latest/)
 - mongodb: [https://www.mongodb.com/](https://www.mongodb.com/)
 - docker: [https://www.docker.com/](https://www.docker.com/)
-
-## Demo
-
-- api: [http://pythonapi.jnpl.me/](http://pythonapi.jnpl.me/)
-- api documentation: [http://pythonapi.jnpl.me/documentation/](http://nodeapi.jnpl.me/documentation/)
 
 ## PYTHON
 
