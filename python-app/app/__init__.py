@@ -60,6 +60,10 @@ def tokenCheck():
             return response
     else:
         userKey = request.headers.get('user-key', None)
+        if userKey is None:
+            response = jsonify(api_response.failed('authentication', ''))
+            response.status_code = 401
+            return response
 
         userData = Users(mongo, False).get({'key': str(userKey)})
         if not bool(userData):
