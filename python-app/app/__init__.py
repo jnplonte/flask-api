@@ -32,7 +32,7 @@ print('api listening to http://localhost:%s' % os.environ.get('PORT') if env is 
 # ---------------------------------------------------------------------------------------------------------------------
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = 'mongodb://%s:%s@%s:%i/%s' % (configs.MONGO_USERNAME, configs.MONGO_PASSWORD, configs.MONGO_HOST, configs.MONGO_PORT, configs.MONGO_DATABASE)
+app.config["MONGO_URI"] = 'mongodb://%s:%s@%s:%s/%s' % (configs.MONGO_USERNAME, configs.MONGO_PASSWORD, configs.MONGO_HOST, configs.MONGO_PORT, configs.MONGO_DATABASE)
 
 mongo = PyMongo(app)
 api = Api(app)
